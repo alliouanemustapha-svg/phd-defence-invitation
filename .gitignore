@@ -1,0 +1,20 @@
+# Build output
+*.exe
+*.pdb
+
+# Media and working files (personal videos stay out of the repository)
+*.mp4
+*.mov
+*.png
+*.jpg
+log.txt
+
+# Environment files (none are needed today; keep any future secrets out)
+.env
+.env.*
+!.env.example
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
